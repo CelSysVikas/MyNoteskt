@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryLight">#a1d2ce</color>
+
+    <color name="primary">#a1d2ce</color>
+    <color name="primaryDark">#62a8ac</color>
+
+
+    <color name="icon">#50858b</color>
+
+    <color name="color1">#ffc8dd</color>
+    <color name="color2">#a3b18a</color>
+    <color name="color3">#adb5bd</color>
+    <color name="color4">#efe9ae</color>
+    <color name="notePinned">#E65349</color>
+</resources>

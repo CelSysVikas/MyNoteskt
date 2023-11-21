@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Notes kt</string>
+    <string name="unNamedNote">" नोट शीर्षक"</string>
+    <string name="writeNote">"अपने विचार यहां लिखें "</string>
+    <string name="noteCreated">नोट बनाया गया</string>
+    <string name="noteDiscard">नोट त्यागें</string>
+    <string name="error_empty_Note">खाली नोट सहेजने में असमर्थ</string>
+    <string name="discardWarn">इस नोट को त्यागें</string>
+    <string name="error_empty_NoteMessage">क्या आप सचमुच इस नोट को त्यागना चाहते हैं?</string>
+    <string name="discardBtn">खारिज करना</string>
+    <string name="cancelbtn">" रद्द "</string>
+    <string name="hideOptions">विकल्प छुपाएं</string>
+    <string name="showOptions">विकल्प खोजे</string>
+    <string name="noteUpdated">नोट अपडेट किया गया</string>
+    <string name="settings">समायोजन</string>
+    <string name="language">भाषा</string>
+    <string name="theme">थीम</string>
+    <string name="deleteData">डेटा हटाएँ</string>
+    <string name="themeDay">दिन</string>
+    <string name="themeNight">रात</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="hindi">हिंदी</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textDisplay">57sp</dimen>
+    <dimen name="textHeadline">32dp</dimen>
+    <dimen name="textTitle">22dp</dimen>
+    <dimen name="textBody">16dp</dimen>
+    <dimen name="textLabel">14sp</dimen>
+</resources>

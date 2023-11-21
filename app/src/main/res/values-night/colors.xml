@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#62a8ac</color>
+    <color name="primaryDark">#50858b</color>
+
+    <color name="icon">#a1d2ce</color>
+
+
+
+
+    <color name="color1">#33282c</color>
+    <color name="color2">#21231c</color>
+    <color name="color3">#adb5bd</color>
+    <color name="color4">#232426</color>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="currentTheme"
+            type="String" />
+
+        <variable
+            name="currentLang"
+            type="String" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.SettingsActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_arrow_left"
+                app:title="@string/settings" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/_10ssp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35ssp"
+                        android:layout_height="@dimen/_35ssp"
+                        android:layout_margin="@dimen/_5ssp"
+                        android:src="@drawable/ic_lang" />
+
+                    <LinearLayout
+                        android:id="@+id/changeLang"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:text="@string/language"
+                            android:textSize="@dimen/_16ssp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_regular"
+                            android:text="@{currentLang}"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35ssp"
+                        android:layout_height="@dimen/_35ssp"
+                        android:layout_margin="@dimen/_5ssp"
+                        android:src="@drawable/ic_paint" />
+
+                    <LinearLayout
+                        android:id="@+id/changeTheme"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:text="@string/theme"
+                            android:textSize="@dimen/_16ssp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_regular"
+                            android:text="@{currentTheme}"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/deleteData">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35ssp"
+                        android:layout_height="@dimen/_35ssp"
+                        android:layout_margin="@dimen/_5ssp"
+                        android:src="@drawable/ic_trash" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:text="@string/deleteData"
+                        android:textSize="@dimen/_16ssp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

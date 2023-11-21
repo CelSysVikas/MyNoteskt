@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyNotesKt" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+
+        <item name="colorPrimaryContainer">@color/primaryDark</item>
+        <item name="colorOnPrimaryContainer">@color/icon</item>
+    </style>
+
+    <!--    Material Dialog-->
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/icon</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSurface">@color/primary</item>
+        <!--        <item name="colorOnSurface">@color/heading</item>-->
+        <item name="colorSurfaceVariant">@color/black</item>
+        <!--        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>-->
+        <!--        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>-->
+        <!--        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>-->
+        <!--        <item name="buttonBarNegativeButtonStyle">@style/Widget.App.Button</item>-->
+    </style>
+
+    <style name="Theme.CustomSplashScreenTheme" parent="Base.Theme.MyNotesKt">
+        <item name="windowSplashScreenBackground">@color/primaryDark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyNotesKt</item>
+    </style>
+</resources>

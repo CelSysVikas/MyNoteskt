@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="noteTitle"
+            type="String" />
+
+        <variable
+            name="noteContent"
+            type="String" />
+
+        <variable
+            name="noteDate"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5ssp">
+
+        <LinearLayout
+            android:id="@+id/llColorCode"
+            android:layout_width="@dimen/_5ssp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_5ssp"
+            android:background="@color/primaryDark"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_5ssp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/noteDataView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:foreground="?attr/selectableItemBackgroundBorderless">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:maxLength="20"
+                        android:text="@{noteTitle}"
+                        android:textSize="@dimen/_22ssp" />
+
+                    <ImageButton
+                        android:id="@+id/ibPinNote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_pin_note" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_medium"
+                    android:maxLength="100"
+                    android:text="@{noteContent}"
+                    android:textSize="@dimen/_14ssp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_5ssp">
+
+                <TextView
+                    android:id="@+id/tvMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans_medium"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:text="@string/showOptions"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:text="@{noteDate}"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_10ssp"
+                android:id="@+id/moreOptionsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/ibCopyNote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5ssp"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_copy" />
+
+                    <ImageButton
+                        android:id="@+id/ibEditNote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5ssp"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_edit" />
+
+                    <ImageButton
+                        android:id="@+id/deleteNote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5ssp"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackground"
+                        android:src="@drawable/ic_trash" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

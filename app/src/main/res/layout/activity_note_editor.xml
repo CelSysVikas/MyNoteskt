@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="noteTitle"
+            type="String" />
+
+        <variable
+            name="noteContent"
+            type="String" />
+
+        <!-- <variable
+             name="noteData"
+             type="me.vikas.mynoteskt.Model.Notes" />-->
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.NoteEditor"
+        android:id="@+id/parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarNavigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/note_editor"
+                app:navigationIcon="@drawable/ic_arrow_left" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/_10ssp"
+            android:background="@drawable/bg_cornar_round"
+            android:elevation="@dimen/_5ssp">
+
+            <Button
+                android:id="@+id/btColor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5ssp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/color1"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/btColor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5ssp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/color2"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/btColor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5ssp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/color3"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/btColor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5ssp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/color4"
+                android:onClick="onClick" />
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="60dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/tvNoteTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:hint="@string/unNamedNote"
+                    android:maxLength="50"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="@{noteTitle}"
+                    android:textSize="30dp"
+                    app:errorEnabled="true" />
+
+                <EditText
+                    android:id="@+id/tvNoteContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/open_sans_medium"
+                    android:hint="@string/writeNote"
+                    android:padding="5dp"
+                    android:text="@{noteContent}" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

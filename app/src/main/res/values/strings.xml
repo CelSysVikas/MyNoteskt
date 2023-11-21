@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">My Notes kt</string>
+    <string name="unNamedNote">UNNAMED NOTE</string>
+    <string name="writeNote">Write Your Thoughts Here</string>
+    <string name="noteCreated">Note Created</string>
+    <string name="noteDiscard">Note Discard</string>
+    <string name="error_empty_Note">Unable to save empty note</string>
+    <string name="discardWarn">Discard this Note</string>
+    <string name="error_empty_NoteMessage">Are you really want to discard this Note</string>
+    <string name="discardBtn">Discard</string>
+    <string name="cancelbtn">Cancel</string>
+    <string name="hideOptions">hide options</string>
+    <string name="showOptions">more options</string>
+    <string name="noteUpdated">Note Updated</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="deleteData">Delete Data</string>
+    <string name="themeDay">Day</string>
+    <string name="themeNight">Night</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="search">Search Note</string>
+    <string name="deleteDataMessage">Are you really want to Delete your all Data</string>
+    <string name="delete">Delete</string>
+    <string name="noData">You haven\'t created any Note</string>
+    <string name="dateCreated">Date Created </string>
+</resources>

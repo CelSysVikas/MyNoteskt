@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyNotesKt" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+
+        <item name="colorPrimaryContainer">@color/primary</item>
+        <item name="colorOnPrimaryContainer">@color/icon</item>
+
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+
+    </style>
+
+    <style name="Theme.MyNotesKt" parent="Base.Theme.MyNotesKt" />
+
+    <style name="Theme.CustomSplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyNotesKt</item>
+    </style>
+
+    <!--    Material Dialog-->
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/icon</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSurface">@color/primary</item>
+        <!--        <item name="colorOnSurface">@color/heading</item>-->
+        <item name="colorSurfaceVariant">@color/black</item>
+        <!--        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>-->
+        <!--        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>-->
+        <!--        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>-->
+        <!--        <item name="buttonBarNegativeButtonStyle">@style/Widget.App.Button</item>-->
+    </style>
+</resources>
