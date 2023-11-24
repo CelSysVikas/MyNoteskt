@@ -48,7 +48,7 @@ A notes app is a versatile and essential tool for anyone looking to organize and
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
 ```
-
+<img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/af8c9b1c-f456-4ab9-93fb-4f1a72e1c305" alt="drawing" style="width:200px;"/>
 ![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/af8c9b1c-f456-4ab9-93fb-4f1a72e1c305)
 
 ![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/ebc9930e-a7b8-4d7c-ba88-1fcb38c98ad9)
