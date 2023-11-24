@@ -60,17 +60,4 @@ A notes app is a versatile and essential tool for anyone looking to organize and
 
 <img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/362a5c44-6187-4fd3-a6d8-0e0d5b7be6ca" alt="drawing" style="width:200px;"/>
 
-<img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/8c81c45c-9839-4c0a-b71e-5de197be6567" alt="drawing" style="width:200px;"/>
-
-
-![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/ebc9930e-a7b8-4d7c-ba88-1fcb38c98ad9)
-
-![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/045c9a2b-6a81-40dd-9c7d-7b4e0c4ffe53)
-
-![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/fcded1f1-3b22-4adf-8872-4d50845c7757)
-
-![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/8c81c45c-9839-4c0a-b71e-5de197be6567)
-
-![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/362a5c44-6187-4fd3-a6d8-0e0d5b7be6ca)
-
 
