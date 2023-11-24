@@ -49,7 +49,19 @@ A notes app is a versatile and essential tool for anyone looking to organize and
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
 ```
 <img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/af8c9b1c-f456-4ab9-93fb-4f1a72e1c305" alt="drawing" style="width:200px;"/>
-![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/af8c9b1c-f456-4ab9-93fb-4f1a72e1c305)
+
+<img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/ebc9930e-a7b8-4d7c-ba88-1fcb38c98ad9" alt="drawing" style="width:200px;"/>
+
+<img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/045c9a2b-6a81-40dd-9c7d-7b4e0c4ffe53" alt="drawing" style="width:200px;"/>
+
+<img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/fcded1f1-3b22-4adf-8872-4d50845c7757" alt="drawing" style="width:200px;"/>
+
+<img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/8c81c45c-9839-4c0a-b71e-5de197be6567" alt="drawing" style="width:200px;"/>
+
+<img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/362a5c44-6187-4fd3-a6d8-0e0d5b7be6ca" alt="drawing" style="width:200px;"/>
+
+<img src="https://github.com/CelSysVikas/MyNoteskt/assets/149458162/8c81c45c-9839-4c0a-b71e-5de197be6567" alt="drawing" style="width:200px;"/>
+
 
 ![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/ebc9930e-a7b8-4d7c-ba88-1fcb38c98ad9)
 
