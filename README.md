@@ -40,6 +40,7 @@ A notes app is a versatile and essential tool for anyone looking to organize and
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation("androidx.activity:activity-ktx:1.8.0")
 
+
     // Kotlin components
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0")
 
@@ -47,3 +48,17 @@ A notes app is a versatile and essential tool for anyone looking to organize and
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
 ```
+
+![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/af8c9b1c-f456-4ab9-93fb-4f1a72e1c305)
+
+![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/ebc9930e-a7b8-4d7c-ba88-1fcb38c98ad9)
+
+![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/045c9a2b-6a81-40dd-9c7d-7b4e0c4ffe53)
+
+![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/fcded1f1-3b22-4adf-8872-4d50845c7757)
+
+![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/8c81c45c-9839-4c0a-b71e-5de197be6567)
+
+![image](https://github.com/CelSysVikas/MyNoteskt/assets/149458162/362a5c44-6187-4fd3-a6d8-0e0d5b7be6ca)
+
+
